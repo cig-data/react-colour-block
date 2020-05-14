@@ -1,0 +1,67 @@
+.colourSelectContainer {
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    .colourSelectValueContainer{
+        display: flex;
+        align-items: center;
+        .colourSelectValueContent{
+            position: relative;
+            .colourSelectValue{
+                max-width: 100px;
+                display: block;
+                line-height: 1;
+                font-size: 12px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-bottom: 4px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            }
+            .downIcon{
+                position: absolute;
+                right: 0;
+                top: 5px;
+                width: 0;
+                height: 0;
+                border-width: 3px;
+                border-style: solid;
+                border-color: rgb(255, 255, 255) transparent transparent transparent;
+            }
+        }
+    }
+    .colourSelectValueContent:hover{
+        background: rgba(255,255,255,0.2);
+    }
+    .colourSelectOption{
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+        background: #fff;
+        font-size: 12px;
+        line-height: 32px;
+        width: 220px;
+        padding: 8px 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 11;
+        .colourSelectLi{
+            color: rgba(0,0,0,.87);
+            cursor: pointer;
+            list-style: none;
+            padding: 0 24px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space:nowrap;
+        }
+        .colourSelectLi:hover{
+            background: #eee;
+        }
+    }
+}
+.colourSelectContainer:hover{
+    //background:#673AB7
+}
+.pointerNone{
+    pointer-events: none;
+}

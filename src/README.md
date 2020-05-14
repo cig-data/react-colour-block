@@ -7,9 +7,6 @@
 
 ![gras](./demo.png)
 
-## 安装依赖
-npm i react-colour-block -S
-
 ## API 介绍
 
 | Property | Description | Type | Default |
