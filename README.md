@@ -7,6 +7,8 @@
 
 ![gras](./demo.png)
 
+DEMO示例地址：https://kafeihaoka.github.io/react-colour-block/
+
 ## 安装依赖
 npm i react-colour-block -S
 
